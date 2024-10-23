@@ -19,8 +19,8 @@ Pour commencer avec ce projet, suis les étapes ci-dessous :
 
 1. **Cloner le dépôt Git**
    ```bash
-   git clone <URL-de-ton-repository>
-   cd <nom-du-repository>
+   git clone https://github.com/Moudathirou/RAG_CHABOT_pdf.git
+   cd RAG_CHABOT_pdf
    ```
 
 2. **Créer un environnement virtuel**
@@ -50,7 +50,7 @@ Pour commencer avec ce projet, suis les étapes ci-dessous :
 2. **Lancer le chatbot**
    - Exécute le script principal pour démarrer le chatbot :
      ```bash
-     python chatbot.py
+     python app.py
      ```
 
 3. **Interagir avec le chatbot**
@@ -61,10 +61,7 @@ Pour commencer avec ce projet, suis les étapes ci-dessous :
 - **Python 3.12** : dernière version de Python, avec des optimisations de performance.
 - **RAG (Retrieval-Augmented Generation)** : pour augmenter le générateur de réponses avec des données issues de ton CV.
 
-## Structure du Projet
-- `chatbot.py` : script principal pour lancer le chatbot.
-- `cv.pdf` : ton CV utilisé comme base de connaissance pour répondre aux questions.
-- `requirements.txt` : fichier contenant les bibliothèques nécessaires.
+
 
 ## Configuration des Dépendances
 Voici un exemple de contenu de `requirements.txt` :
